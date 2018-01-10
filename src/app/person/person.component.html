@@ -1,0 +1,36 @@
+<div class="panel panel-danger">
+  <div class="panel-heading">
+    
+    <b>Angular 4 HTTP requests using RxJs Observables!</b>
+
+  </div>
+  <div class="panel-body">
+
+      <table class="table table-responsive table-bordered table-striped table-hover">
+          <tr>
+            <th>
+              Name
+            </th>
+            <th>Username </th>
+            <th>Website </th>
+            <th>Email</th>
+          </tr>
+          <tr *ngFor="let name of doctors">
+            <td>
+              {{name.name}}
+            </td>
+            <td>
+              {{name.username}}
+            </td>
+            <td>
+              {{name.website }}
+            </td>
+            <td>
+              {{name.email }}
+            </td>
+          </tr>
+        </table>
+    
+  </div>
+
+</div>

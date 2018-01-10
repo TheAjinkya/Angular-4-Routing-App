@@ -10,6 +10,7 @@ import { AdminComponent } from './admin/admin.component';
 // import { Http } from '@angular/http';
 import { ArticleComponent } from './article/article.component';
 import { ArticleService } from './article/article.service';
+import { PersonComponent } from './person/person.component';
 
 
 
@@ -19,7 +20,8 @@ import { ArticleService } from './article/article.service';
     UserComponent,
     GuestComponent,
     AdminComponent,
-    ArticleComponent
+    ArticleComponent,
+    PersonComponent
 
   ],
   imports: [
@@ -42,6 +44,10 @@ import { ArticleService } from './article/article.service';
       {
         path: 'article-cmp',
         component: ArticleComponent
+      },
+      {
+        path: 'person-cmp',
+        component: PersonComponent
       }
 
     ])
