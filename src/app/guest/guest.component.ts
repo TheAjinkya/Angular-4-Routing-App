@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-guest',
+  selector: 'guest-cmp',
   templateUrl: './guest.component.html',
   styleUrls: ['./guest.component.css']
 })

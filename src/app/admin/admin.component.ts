@@ -6,7 +6,7 @@ import 'rxjs/add/operator/map';
 
 
 @Component({
-  selector: 'app-admin',
+  selector: 'admin-cmp',
   templateUrl: './admin.component.html',
   styleUrls: ['./admin.component.css']
 })
@@ -15,15 +15,10 @@ export class AdminComponent implements OnInit {
   data: Object;
   loading : boolean;
 
-  constructor(private http: Http) { }
+  constructor() { }
 
   ngOnInit() {
-    this.http.get("http://jsonplaceholder.typicode.com/users").map(
-      (response) ⇒ response.json()
-      ).
-      subscribe(
-        (data) ⇒ {this.displaydata(data);}
-  )
+    
 }
 
   
