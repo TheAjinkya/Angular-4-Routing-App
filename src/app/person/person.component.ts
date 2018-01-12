@@ -12,7 +12,7 @@ export class PersonComponent implements OnInit {
 
   constructor(http : Http) {
 
-    http.get('http://jsonplaceholder.typicode.com/users/')
+    http.get('https://jsonplaceholder.typicode.com/users/')
         .flatMap((data) => data.json())
         .subscribe((data) => {
           this.doctors.push(data);
