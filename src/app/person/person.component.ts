@@ -8,7 +8,7 @@ import 'rxjs/Rx';
   styleUrls: ['./person.component.css']
 })
 export class PersonComponent implements OnInit {
-  private doctors = [];
+   doctors = [];
 
   constructor(http : Http) {
 
