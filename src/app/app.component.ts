@@ -11,7 +11,8 @@ import { ArticleService } from './article/article.service';
 
 
 export class AppComponent  {
-  title = 'World!';
+  title = 'Marvellous InfoSystem';
+  subTitle = "Educating for the Better tomorrow!"
   todaysDate;
 
   constructor( private articleService : ArticleService){
@@ -23,7 +24,5 @@ ngOnInit(){
   this.todaysDate = this.articleService.showDate();
 
 
-}
-  
-
+}  
 }

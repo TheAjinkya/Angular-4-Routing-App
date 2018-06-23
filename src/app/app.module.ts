@@ -10,7 +10,12 @@ import { AdminComponent } from './admin/admin.component';
 // import { Http } from '@angular/http';
 import { ArticleComponent } from './article/article.component';
 import { ArticleService } from './article/article.service';
+import {FormsModule} from '@angular/forms'
 import { PersonComponent } from './person/person.component';
+import { MarvellousComponent } from './marvellous/marvellous.component';
+import { FirstComponent } from './first/first.component';
+import { SecondComponent } from './second/second.component';
+import { ThirdComponent } from './third/third.component';
 
 
 
@@ -21,12 +26,17 @@ import { PersonComponent } from './person/person.component';
     GuestComponent,
     AdminComponent,
     ArticleComponent,
-    PersonComponent
+    PersonComponent,
+    MarvellousComponent,
+    FirstComponent,
+    SecondComponent,
+    ThirdComponent
 
   ],
   imports: [
     BrowserModule,
     ReactiveFormsModule,
+    FormsModule,
     HttpModule,
     RouterModule.forRoot([
       {

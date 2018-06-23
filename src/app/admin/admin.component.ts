@@ -12,8 +12,8 @@ import 'rxjs/add/operator/map';
 })
 export class AdminComponent implements OnInit {
 
-  data: Object;
-  loading : boolean;
+  message : string = "Third Compnent" 
+
 
   constructor() { }
 

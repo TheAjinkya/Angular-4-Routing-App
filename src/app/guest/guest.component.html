@@ -1,13 +1,17 @@
-<div class="panel panel-success">
+<div class="panel panel-primary">
   <div class="panel-heading">
-    Guest User
+    Assignment 2
 
   </div>
   <div class="panel-body">
 
-    Hello Guest user
+    Hello {{firstName+" "+lastName}}
+    <hr>
     <p>
-      guest works!
+      Enter the Company Name : <input type="text" placeholder= 'Marvellous Infosystem'><hr>
+      Entered Company Name : <input style="background-color: cyan" type="text" [(ngModel)]="companyName"><hr>
+
+      <app-marvellous></app-marvellous>
     </p>
   </div>
 

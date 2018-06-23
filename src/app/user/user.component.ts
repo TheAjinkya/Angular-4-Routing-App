@@ -8,6 +8,9 @@ import { FormsModule } from '@angular/forms';
 })
 export class UserComponent implements OnInit {
 
+
+  title : string = "Marvellous Infosystem"
+
   firstName: string;
   lastName: string;
   email: string;

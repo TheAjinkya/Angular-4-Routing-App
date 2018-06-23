@@ -1,38 +1,19 @@
 <div class="panel panel-primary">
   <div class="panel-heading">
-    Guest User
+    Assignment 1
 
   </div>
   <div class="panel-body">
-
-
-    <h1>Welcome {{firstName}}!</h1>
     <div>
-      Your deatils are as follow:
-      <table class="table table-responsive table-bordered table-striped table-hover">
-        <tr>
-          <td>
-            First Name
-          </td>
-          <td>Last Name </td>
-          <td>Contact </td>
-          <td>Email</td>
-        </tr>
-        <tr *ngFor="let name of names">
-          <td>
-            {{name.firstName}}
-          </td>
-          <td>
-            {{name.lastName}}
-          </td>
-          <td>
-            {{name.contact }}
-          </td>
-          <td>
-            {{name.email }}
-          </td>
-        </tr>
-      </table>
+      Following data is displayed from the component using templateUrl:
+      <br>
+
+      <h1>{{title}}</h1>
+
+
+
+      <hr>
+
       <div *ngIf="condition2; else condition1">
         This will be displayed if the condition is true!
       </div>
